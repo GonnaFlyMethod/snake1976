@@ -1,0 +1,15 @@
+language: python
+
+dist: bionic
+
+python:
+  - "3.8"
+  
+install:
+  - pip install poetry
+  - poetry install
+  
+script: 
+  - pytest -s
+  - flake8 snake_project
+

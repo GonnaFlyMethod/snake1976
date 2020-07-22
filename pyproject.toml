@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "snake1976"
+version = "0.1.0"
+description = "Snake 1976 is a console game that follows the logic of the classic snake.The game also contains some new game modes and features."
+authors = ["Alexander Gusakov <alexnadergusakov@yahoo.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+colorama = "^0.4.3"
+pytest = "^5.4.3"
+pyproject = "^1.3.1"
+flake8 = "^3.8.3"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
