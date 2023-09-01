@@ -17,7 +17,13 @@
 
 ---
 
-Snake 1976 is a console game that follows the logic of the classic snake.The game also contains some new game modes and features. Enjoy the game! :snake:
+Snake 1976 is a terminal game that follows the logic of the classic snake.The game also contains some new game modes and features. Enjoy the game! :snake:
+
+## Gameplay screenshots
+![](./media/gameplay.png)
+![](./media/gameplay1.png)
+![](./media/gameplay2.png)
+
 
 ## Getting Started
 
@@ -45,7 +51,7 @@ pip install poetry
 
 ### Install all dependencies
 
-You need to get to the directory with project 'snake1976' and then write in the console:
+You need to get to the directory with project 'snake1976' and then write in the terminal:
 
 ```
 poetry install
